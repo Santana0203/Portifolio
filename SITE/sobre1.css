@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+}
+
+
+body{
+    
+   background-color: rgb(172, 174, 175);
+   background: url(Fundosobre.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+  
+}
+
+.nav-bar{
+    margin-top: 10px;
+    /* border: 1px solid rgb(255, 253, 253); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    color: rgb(255, 255, 255);
+}
+.MENU ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.MENU a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.Redes-social{
+    display: flex;
+    gap: 15px;
+}
+.Redes-social a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    gap: 15px;
+    height: 20px;
+    width: 20px;
+    
+}
+
+.Meio-sobre{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    padding: 85px;
+    color: rgb(255, 255, 255); 
+    margin-top: auto;
+    align-items: center;
+}
+

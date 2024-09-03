@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(172, 174, 175);
+    background: url(Fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nav-bar{
+    margin-top: 10px;
+    /* border: 1px solid rgb(255, 253, 253); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    color: rgb(255, 255, 255);
+}
+.MENU ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.MENU a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.Redes-social{
+    display: flex;
+    gap: 15px;
+}
+.Redes-social a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    gap: 15px;
+    height: 20px;
+    width: 20px;
+    
+}
+.Titulo{
+    text-align: center;
+    padding: auto;
+    color: aliceblue;
+    font-size: 50px;
+}
+.catalog {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.catalog h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody{
+    color: rgb(254, 254, 254);
+    font-size:18px;
+}
+tbody tr:hover {
+    background-color: #9c4747;
+}
+
+th {
+    background-color: #4caf4f00;
+    color: white;
+}

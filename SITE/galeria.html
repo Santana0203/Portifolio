@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="galeria1.css">
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <nav>  
+                <div class="nav-bar">
+                    <div class="icon">
+                        <img src="Logo.png" alt="" height="120px" width="120px">
+                    </div>
+                    <div class="MENU">
+                        <ul>
+                            <a href="index.html"><li>Home</li></a>
+                            <a href="servicos.html"><li>Serviços</li></a>
+                            <a href="galeria.html"><li>Galeria</li></a>
+                            <a href="sobre.html"><li>Sobre</li></a>
+                        </ul>
+                    </div>
+                    <div class="Redes-social">
+                        <a href="https://www.instagram.com/santanasp_/"><img src="INSTAGRAM.png" alt="" ></a> 
+                        <a href="https://contate.me/fs-desinger"><img src="WHATSAPP.png" alt="" ></a>
+                        <a href="#"><img src="TWITTER.png" alt="" ></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <h3 class="Titulo">Portifólio</h3>
+
+        <div class="photo-box">
+            <img src="Lancha.jpg" alt="Lancha" onclick="openModal('Lancha.jpg')">
+            <img src="Osana.JPEG" alt="" onclick="openModal('Osana.JPEG')">
+            <img src="Sol.JPEG" alt="" onclick="openModal('Sol.JPEG')">
+            <img src="Trem.JPEG" alt="" onclick="openModal('Trem.JPEG')">
+            <img src="Imbassai.JPEG" alt="" onclick="openModal('Imbassai.JPEG')">
+            <img src="ribeira.JPEG" alt="" onclick="openModal('ribeira.JPEG')">
+            <img src="Casa.JPEG" alt="" onclick="openModal('Casa.JPEG')">
+            <img src="Jaiba.JPEG" alt="" onclick="openModal('Jaiba.JPEG')">
+    
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="img01">
+        </div>
+
+    </div>
+    <script src="galeria2.js"></script>
+
+</body>
+</html>
